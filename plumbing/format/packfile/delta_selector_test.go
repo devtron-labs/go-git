@@ -1,8 +1,8 @@
 package packfile
 
 import (
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/devtron-labs/go-git"
+	. "github.com/devtron-labs/go-git/_examples"
+	"github.com/devtron-labs/go-git/plumbing"
 )
 
 // Basic example of how to find if HEAD is tagged.

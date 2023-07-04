@@ -7,7 +7,7 @@ import (
 	"encoding/binary"
 	"io"
 
-	"github.com/go-git/go-git/v5/plumbing"
+	"github.com/devtron-labs/go-git/plumbing"
 )
 
 // Read reads structured binary data from r into data. Bytes are read and

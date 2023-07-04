@@ -12,8 +12,8 @@ import (
 
 	"github.com/elazarl/goproxy"
 
-	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/go-git/go-git/v5/plumbing/transport/http"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport/http"
 
 	. "gopkg.in/check.v1"
 )

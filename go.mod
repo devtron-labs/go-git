@@ -1,4 +1,4 @@
-module github.com/go-git/go-git/v5
+module github.com/devtron-labs/go-git
 
 // go-git supports the last 3 stable Go versions.
 go 1.18
@@ -20,7 +20,7 @@ require (
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/kevinburke/ssh_config v1.2.0
 	github.com/pjbgf/sha1cd v0.3.0
-	github.com/sergi/go-diff v1.1.0
+	github.com/sergi/go-diff v1.3.0
 	github.com/skeema/knownhosts v1.1.1
 	github.com/xanzy/ssh-agent v0.3.3
 	golang.org/x/crypto v0.9.0
