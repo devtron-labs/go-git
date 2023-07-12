@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/hash"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/hash"
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 
 	. "gopkg.in/check.v1"

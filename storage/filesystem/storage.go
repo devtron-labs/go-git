@@ -2,8 +2,8 @@
 package filesystem
 
 import (
-	"github.com/avdkp/go-git/plumbing/cache"
-	"github.com/avdkp/go-git/storage/filesystem/dotgit"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/storage/filesystem/dotgit"
 
 	"github.com/go-git/go-billy/v5"
 )

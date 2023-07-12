@@ -1,7 +1,7 @@
 package commitgraph
 
 import (
-	"github.com/avdkp/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing"
 )
 
 // MemoryIndex provides a way to build the commit-graph in memory

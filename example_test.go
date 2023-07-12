@@ -7,11 +7,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/avdkp/go-git"
-	"github.com/avdkp/go-git/config"
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/transport/http"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/config"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/transport/http"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	"github.com/go-git/go-billy/v5/memfs"
 )

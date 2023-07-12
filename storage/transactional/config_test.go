@@ -1,8 +1,8 @@
 package transactional
 
 import (
-	"github.com/avdkp/go-git/config"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/config"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 )

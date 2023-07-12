@@ -3,9 +3,6 @@ package main
 import (
 	"fmt"
 	"os"
-
-	"github.com/avdkp/go-git"
-	. "github.com/avdkp/go-git/_examples"
 )
 
 // Pull changes from a remote repository

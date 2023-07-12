@@ -9,10 +9,10 @@ import (
 	"math"
 	"strings"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/filemode"
-	fdiff "github.com/avdkp/go-git/plumbing/format/diff"
-	"github.com/avdkp/go-git/utils/diff"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/filemode"
+	fdiff "github.com/devtron-labs/go-git/plumbing/format/diff"
+	"github.com/devtron-labs/go-git/utils/diff"
 
 	dmp "github.com/sergi/go-diff/diffmatchpatch"
 )

@@ -2,9 +2,6 @@ package main
 
 import (
 	"os"
-
-	"github.com/avdkp/go-git"
-	. "github.com/avdkp/go-git/_examples"
 )
 
 // Basic example of how to clone a repository including a submodule and

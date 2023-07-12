@@ -4,9 +4,6 @@ import (
 	"context"
 	"os"
 	"os/signal"
-
-	"github.com/avdkp/go-git"
-	. "github.com/avdkp/go-git/_examples"
 )
 
 // Graceful cancellation example of a basic git operation such as Clone.

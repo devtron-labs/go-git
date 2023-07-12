@@ -3,9 +3,9 @@ package git
 import (
 	"os"
 
-	"github.com/avdkp/go-git/config"
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/config"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/object"
 	"github.com/go-git/go-billy/v5/util"
 	. "gopkg.in/check.v1"
 )

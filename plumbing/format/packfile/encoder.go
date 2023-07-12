@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/hash"
-	"github.com/avdkp/go-git/plumbing/storer"
-	"github.com/avdkp/go-git/utils/binary"
-	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/hash"
+	"github.com/devtron-labs/go-git/plumbing/storer"
+	"github.com/devtron-labs/go-git/utils/binary"
+	"github.com/devtron-labs/go-git/utils/ioutil"
 )
 
 // Encoder gets the data from the storage and write it into the writer in PACK

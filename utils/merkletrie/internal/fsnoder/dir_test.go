@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/avdkp/go-git/utils/merkletrie/noder"
+	"github.com/devtron-labs/go-git/utils/merkletrie/noder"
 
 	. "gopkg.in/check.v1"
 )

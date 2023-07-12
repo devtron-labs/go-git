@@ -1,8 +1,8 @@
 package git
 
 import (
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/object"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

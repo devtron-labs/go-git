@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/avdkp/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing"
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/go-git/go-billy/v5/util"
 	. "gopkg.in/check.v1"

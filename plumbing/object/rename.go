@@ -6,10 +6,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/filemode"
-	"github.com/avdkp/go-git/utils/ioutil"
-	"github.com/avdkp/go-git/utils/merkletrie"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/filemode"
+	"github.com/devtron-labs/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/utils/merkletrie"
 )
 
 // DetectRenames detects the renames in the given changes on two trees with

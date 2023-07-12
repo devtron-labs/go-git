@@ -1,8 +1,8 @@
 package transactional
 
 import (
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/storer"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/storer"
 )
 
 // ShallowStorage implements the storer.ShallowStorer for the transactional package.

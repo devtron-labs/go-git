@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/avdkp/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing"
 )
 
 const (

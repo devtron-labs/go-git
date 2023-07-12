@@ -7,8 +7,8 @@ import (
 
 	encbin "encoding/binary"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/hash"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/hash"
 )
 
 const (

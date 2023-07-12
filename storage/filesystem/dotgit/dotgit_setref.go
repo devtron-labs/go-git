@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/utils/ioutil"
 
 	"github.com/go-git/go-billy/v5"
 )

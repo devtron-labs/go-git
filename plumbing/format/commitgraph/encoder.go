@@ -3,9 +3,9 @@ package commitgraph
 import (
 	"io"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/hash"
-	"github.com/avdkp/go-git/utils/binary"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/hash"
+	"github.com/devtron-labs/go-git/utils/binary"
 )
 
 // Encoder writes MemoryIndex structs to an output stream.

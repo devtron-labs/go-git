@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/avdkp/go-git/config"
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/format/index"
-	"github.com/avdkp/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/config"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/index"
+	"github.com/devtron-labs/go-git/plumbing/transport"
 	"github.com/go-git/go-billy/v5"
 )
 

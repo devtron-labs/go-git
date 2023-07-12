@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/cache"
-	"github.com/avdkp/go-git/storage/filesystem"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/storage/filesystem"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

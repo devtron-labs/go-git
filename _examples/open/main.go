@@ -4,9 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/avdkp/go-git"
-	. "github.com/avdkp/go-git/_examples"
-	"github.com/avdkp/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/plumbing/object"
 )
 
 // Open an existing repository in a specific folder.

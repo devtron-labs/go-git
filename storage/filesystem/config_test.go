@@ -3,8 +3,8 @@ package filesystem
 import (
 	"os"
 
-	"github.com/avdkp/go-git/config"
-	"github.com/avdkp/go-git/storage/filesystem/dotgit"
+	"github.com/devtron-labs/go-git/config"
+	"github.com/devtron-labs/go-git/storage/filesystem/dotgit"
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/go-git/go-billy/v5/util"
 	fixtures "github.com/go-git/go-git-fixtures/v4"

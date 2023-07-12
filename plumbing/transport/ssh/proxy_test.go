@@ -9,8 +9,8 @@ import (
 	"sync/atomic"
 
 	"github.com/armon/go-socks5"
-	"github.com/avdkp/go-git/plumbing/transport"
-	"github.com/avdkp/go-git/plumbing/transport/ssh/internal/test"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport/ssh/internal/test"
 	"github.com/gliderlabs/ssh"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"

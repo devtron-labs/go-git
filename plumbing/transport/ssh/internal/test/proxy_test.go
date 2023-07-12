@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/armon/go-socks5"
-	"github.com/avdkp/go-git/plumbing/transport"
-	ggssh "github.com/avdkp/go-git/plumbing/transport/ssh"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	ggssh "github.com/devtron-labs/go-git/plumbing/transport/ssh"
 	"github.com/gliderlabs/ssh"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"

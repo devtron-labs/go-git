@@ -7,7 +7,7 @@ import (
 	"os/user"
 	"path/filepath"
 
-	"github.com/avdkp/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport"
 
 	"github.com/skeema/knownhosts"
 	sshagent "github.com/xanzy/ssh-agent"

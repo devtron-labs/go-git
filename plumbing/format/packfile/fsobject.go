@@ -3,10 +3,10 @@ package packfile
 import (
 	"io"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/cache"
-	"github.com/avdkp/go-git/plumbing/format/idxfile"
-	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/plumbing/format/idxfile"
+	"github.com/devtron-labs/go-git/utils/ioutil"
 	billy "github.com/go-git/go-billy/v5"
 )
 

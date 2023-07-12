@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/format/pktline"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/pktline"
 )
 
 // Decode reads the next advertised-refs message form its input and

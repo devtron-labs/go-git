@@ -5,10 +5,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/avdkp/go-git"
-	"github.com/avdkp/go-git/plumbing/object"
-
-	. "github.com/avdkp/go-git/_examples"
+	"github.com/devtron-labs/go-git/plumbing/object"
 )
 
 // Example of an specific use case:

@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/avdkp/go-git/config"
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/config"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/storage/memory"
 	"github.com/go-git/go-billy/v5/memfs"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"

@@ -8,8 +8,8 @@ import (
 	"os/user"
 	"strings"
 
-	"github.com/avdkp/go-git/plumbing/format/config"
-	gioutil "github.com/avdkp/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/plumbing/format/config"
+	gioutil "github.com/devtron-labs/go-git/utils/ioutil"
 	"github.com/go-git/go-billy/v5"
 )
 

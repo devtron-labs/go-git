@@ -4,10 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/avdkp/go-git"
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/object"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	"github.com/go-git/go-billy/v5/memfs"
 	"github.com/go-git/go-billy/v5/util"

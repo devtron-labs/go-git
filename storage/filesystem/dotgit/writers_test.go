@@ -6,9 +6,9 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/format/idxfile"
-	"github.com/avdkp/go-git/plumbing/format/packfile"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/idxfile"
+	"github.com/devtron-labs/go-git/plumbing/format/packfile"
 	"github.com/go-git/go-billy/v5/osfs"
 	"github.com/go-git/go-billy/v5/util"
 

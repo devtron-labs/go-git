@@ -9,12 +9,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/format/packfile"
-	"github.com/avdkp/go-git/plumbing/protocol/packp"
-	"github.com/avdkp/go-git/plumbing/protocol/packp/capability"
-	"github.com/avdkp/go-git/plumbing/transport"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/packfile"
+	"github.com/devtron-labs/go-git/plumbing/protocol/packp"
+	"github.com/devtron-labs/go-git/plumbing/protocol/packp/capability"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

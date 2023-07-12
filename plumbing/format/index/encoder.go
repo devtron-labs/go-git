@@ -7,8 +7,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/avdkp/go-git/plumbing/hash"
-	"github.com/avdkp/go-git/utils/binary"
+	"github.com/devtron-labs/go-git/plumbing/hash"
+	"github.com/devtron-labs/go-git/utils/binary"
 )
 
 var (

@@ -4,10 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/avdkp/go-git"
-	. "github.com/avdkp/go-git/_examples"
-	"github.com/avdkp/go-git/plumbing/object"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/storage/memory"
 )
 
 // Example of how to:

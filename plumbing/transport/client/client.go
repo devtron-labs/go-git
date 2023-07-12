@@ -5,11 +5,11 @@ package client
 import (
 	"fmt"
 
-	"github.com/avdkp/go-git/plumbing/transport"
-	"github.com/avdkp/go-git/plumbing/transport/file"
-	"github.com/avdkp/go-git/plumbing/transport/git"
-	"github.com/avdkp/go-git/plumbing/transport/http"
-	"github.com/avdkp/go-git/plumbing/transport/ssh"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport/file"
+	"github.com/devtron-labs/go-git/plumbing/transport/git"
+	"github.com/devtron-labs/go-git/plumbing/transport/http"
+	"github.com/devtron-labs/go-git/plumbing/transport/ssh"
 )
 
 // Protocols are the protocols supported by default.

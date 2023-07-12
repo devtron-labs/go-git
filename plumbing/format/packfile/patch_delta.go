@@ -7,9 +7,9 @@ import (
 	"io"
 	"math"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/utils/ioutil"
-	"github.com/avdkp/go-git/utils/sync"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/utils/sync"
 )
 
 // See https://github.com/git/git/blob/49fa3dc76179e04b0833542fa52d0f287a4955ac/delta.h

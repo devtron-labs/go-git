@@ -22,10 +22,10 @@ import (
 	"strconv"
 	"strings"
 
-	giturl "github.com/avdkp/go-git/internal/url"
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/protocol/packp"
-	"github.com/avdkp/go-git/plumbing/protocol/packp/capability"
+	giturl "github.com/devtron-labs/go-git/internal/url"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/protocol/packp"
+	"github.com/devtron-labs/go-git/plumbing/protocol/packp/capability"
 )
 
 var (

@@ -7,12 +7,12 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/format/pktline"
-	"github.com/avdkp/go-git/plumbing/protocol/packp"
-	"github.com/avdkp/go-git/plumbing/transport"
-	"github.com/avdkp/go-git/plumbing/transport/internal/common"
-	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/pktline"
+	"github.com/devtron-labs/go-git/plumbing/protocol/packp"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport/internal/common"
+	"github.com/devtron-labs/go-git/utils/ioutil"
 )
 
 type upSession struct {

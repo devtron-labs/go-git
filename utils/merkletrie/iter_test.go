@@ -5,9 +5,9 @@ import (
 	"io"
 	"strings"
 
-	"github.com/avdkp/go-git/utils/merkletrie"
-	"github.com/avdkp/go-git/utils/merkletrie/internal/fsnoder"
-	"github.com/avdkp/go-git/utils/merkletrie/noder"
+	"github.com/devtron-labs/go-git/utils/merkletrie"
+	"github.com/devtron-labs/go-git/utils/merkletrie/internal/fsnoder"
+	"github.com/devtron-labs/go-git/utils/merkletrie/noder"
 
 	. "gopkg.in/check.v1"
 )

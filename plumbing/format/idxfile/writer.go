@@ -7,8 +7,8 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/utils/binary"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/utils/binary"
 )
 
 // objects implements sort.Interface and uses hash as sorting key.

@@ -3,9 +3,9 @@ package filesystem
 import (
 	"testing"
 
-	"github.com/avdkp/go-git/plumbing/cache"
-	"github.com/avdkp/go-git/plumbing/storer"
-	"github.com/avdkp/go-git/storage/test"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/plumbing/storer"
+	"github.com/devtron-labs/go-git/storage/test"
 
 	"github.com/go-git/go-billy/v5"
 	"github.com/go-git/go-billy/v5/memfs"

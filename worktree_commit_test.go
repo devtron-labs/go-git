@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/cache"
-	"github.com/avdkp/go-git/plumbing/object"
-	"github.com/avdkp/go-git/plumbing/storer"
-	"github.com/avdkp/go-git/storage/filesystem"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/plumbing/storer"
+	"github.com/devtron-labs/go-git/storage/filesystem"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	"github.com/ProtonMail/go-crypto/openpgp"
 	"github.com/ProtonMail/go-crypto/openpgp/armor"

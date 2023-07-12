@@ -3,13 +3,13 @@ package server_test
 import (
 	"testing"
 
-	"github.com/avdkp/go-git/plumbing/cache"
-	"github.com/avdkp/go-git/plumbing/transport"
-	"github.com/avdkp/go-git/plumbing/transport/client"
-	"github.com/avdkp/go-git/plumbing/transport/server"
-	"github.com/avdkp/go-git/plumbing/transport/test"
-	"github.com/avdkp/go-git/storage/filesystem"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport/client"
+	"github.com/devtron-labs/go-git/plumbing/transport/server"
+	"github.com/devtron-labs/go-git/plumbing/transport/test"
+	"github.com/devtron-labs/go-git/storage/filesystem"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 	. "gopkg.in/check.v1"

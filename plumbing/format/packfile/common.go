@@ -3,8 +3,8 @@ package packfile
 import (
 	"io"
 
-	"github.com/avdkp/go-git/plumbing/storer"
-	"github.com/avdkp/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/plumbing/storer"
+	"github.com/devtron-labs/go-git/utils/ioutil"
 )
 
 var signature = []byte{'P', 'A', 'C', 'K'}

@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/avdkp/go-git/plumbing"
-	"github.com/avdkp/go-git/plumbing/format/idxfile"
-	"github.com/avdkp/go-git/plumbing/hash"
-	"github.com/avdkp/go-git/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/idxfile"
+	"github.com/devtron-labs/go-git/plumbing/hash"
+	"github.com/devtron-labs/go-git/storage/memory"
 
 	"github.com/go-git/go-billy/v5/memfs"
 	fixtures "github.com/go-git/go-git-fixtures/v4"

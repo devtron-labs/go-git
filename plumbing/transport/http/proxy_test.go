@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync/atomic"
 
-	"github.com/avdkp/go-git/plumbing/transport"
-	"github.com/avdkp/go-git/plumbing/transport/http/internal/test"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport/http/internal/test"
 	"github.com/elazarl/goproxy"
 	fixtures "github.com/go-git/go-git-fixtures/v4"
 
