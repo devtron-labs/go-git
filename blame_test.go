@@ -1,11 +1,11 @@
 package git
 
 import (
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/object"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 type BlameSuite struct {

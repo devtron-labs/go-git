@@ -8,17 +8,17 @@ import (
 	"path"
 	"path/filepath"
 
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/filemode"
+	"github.com/devtron-labs/go-git/plumbing/format/gitignore"
+	"github.com/devtron-labs/go-git/plumbing/format/index"
+	"github.com/devtron-labs/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/utils/ioutil"
+	"github.com/devtron-labs/go-git/utils/merkletrie"
+	"github.com/devtron-labs/go-git/utils/merkletrie/filesystem"
+	mindex "github.com/devtron-labs/go-git/utils/merkletrie/index"
+	"github.com/devtron-labs/go-git/utils/merkletrie/noder"
 	"gopkg.in/src-d/go-billy.v4/util"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/filemode"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/gitignore"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/filesystem"
-	mindex "gopkg.in/src-d/go-git.v4/utils/merkletrie/index"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/noder"
 )
 
 var (

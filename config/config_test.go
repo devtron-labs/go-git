@@ -1,8 +1,8 @@
 package config
 
 import (
+	"github.com/devtron-labs/go-git/plumbing"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/plumbing"
 )
 
 type ConfigSuite struct{}

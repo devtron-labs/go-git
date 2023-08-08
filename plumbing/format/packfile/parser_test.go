@@ -4,13 +4,13 @@ import (
 	"io"
 	"testing"
 
-	git "gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
+	git "github.com/devtron-labs/go-git"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/packfile"
+	"github.com/devtron-labs/go-git/plumbing/storer"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 type ParserSuite struct {

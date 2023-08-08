@@ -8,11 +8,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	. "gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
+	"github.com/devtron-labs/go-git/plumbing"
+	. "github.com/devtron-labs/go-git/plumbing/format/idxfile"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 func Test(t *testing.T) { TestingT(t) }

@@ -1,3 +1,4 @@
+//go:build linux
 // +build linux
 
 package git
@@ -6,7 +7,7 @@ import (
 	"syscall"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
+	"github.com/devtron-labs/go-git/plumbing/format/index"
 )
 
 func init() {

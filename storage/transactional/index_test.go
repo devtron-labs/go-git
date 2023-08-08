@@ -1,9 +1,9 @@
 package transactional
 
 import (
+	"github.com/devtron-labs/go-git/plumbing/format/index"
+	"github.com/devtron-labs/go-git/storage/memory"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
 )
 
 var _ = Suite(&IndexSuite{})

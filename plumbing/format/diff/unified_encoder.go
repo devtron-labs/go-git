@@ -6,7 +6,7 @@ import (
 	"io"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/devtron-labs/go-git/plumbing"
 )
 
 const (
@@ -46,8 +46,8 @@ const (
 
 // UnifiedEncoder encodes an unified diff into the provided Writer.
 // There are some unsupported features:
-//     - Similarity index for renames
-//     - Sort hash representation
+//   - Similarity index for renames
+//   - Sort hash representation
 type UnifiedEncoder struct {
 	io.Writer
 

@@ -12,13 +12,13 @@ import (
 	"strings"
 	"sync"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/test"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/plumbing/transport/test"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	"github.com/gliderlabs/ssh"
 	stdssh "golang.org/x/crypto/ssh"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 type UploadPackSuite struct {

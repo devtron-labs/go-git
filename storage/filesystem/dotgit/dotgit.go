@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/storage"
+	"github.com/devtron-labs/go-git/utils/ioutil"
 	"gopkg.in/src-d/go-billy.v4/osfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/storage"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
 
 	"gopkg.in/src-d/go-billy.v4"
 )
@@ -499,7 +499,8 @@ func (d *DotGit) objectPath(h plumbing.Hash) string {
 //
 // More on git hooks found here : https://git-scm.com/docs/githooks
 // More on 'quarantine'/incoming directory here:
-//     https://git-scm.com/docs/git-receive-pack
+//
+//	https://git-scm.com/docs/git-receive-pack
 func (d *DotGit) incomingObjectPath(h plumbing.Hash) string {
 	hString := h.String()
 

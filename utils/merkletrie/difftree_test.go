@@ -10,8 +10,8 @@ import (
 	"testing"
 	"unicode"
 
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie"
-	"gopkg.in/src-d/go-git.v4/utils/merkletrie/internal/fsnoder"
+	"github.com/devtron-labs/go-git/utils/merkletrie"
+	"github.com/devtron-labs/go-git/utils/merkletrie/internal/fsnoder"
 
 	. "gopkg.in/check.v1"
 )
@@ -392,18 +392,20 @@ func (s *DiffTreeSuite) TestDebug(c *C) {
 	})
 }
 
-//      root
-//      / | \
-//     /  |  ----
-//    f   d      h --------
-//   /\         /  \      |
-//  e   a      j   b/      g
-//  |  / \     |
-//  l  n  k    icm
-//     |
-//     o
-//     |
-//     p/
+//	   root
+//	   / | \
+//	  /  |  ----
+//	 f   d      h --------
+//	/\         /  \      |
+//
+// e   a      j   b/      g
+// |  / \     |
+// l  n  k    icm
+//
+//	|
+//	o
+//	|
+//	p/
 func (s *DiffTreeSuite) TestCrazy(c *C) {
 	crazy := "(f(e(l<1>) a(n(o(p())) k<1>)) d<1> h(j(i<1> c<2> m<>) b() g<>))"
 	do(c, []diffTreeTest{

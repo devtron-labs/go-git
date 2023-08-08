@@ -3,18 +3,18 @@ package git
 import (
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/plumbing/format/packfile"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/storage/filesystem"
+	"github.com/devtron-labs/go-git/storage/memory"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4"
 	"gopkg.in/src-d/go-billy.v4/memfs"
 	"gopkg.in/src-d/go-billy.v4/util"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 func Test(t *testing.T) { TestingT(t) }

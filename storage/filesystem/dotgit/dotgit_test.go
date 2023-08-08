@@ -9,12 +9,12 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/devtron-labs/go-git/plumbing"
 	"gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/osfs"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 func Test(t *testing.T) { TestingT(t) }

@@ -4,15 +4,15 @@ import (
 	"context"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/devtron-labs/go-git"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/object"
+	"github.com/devtron-labs/go-git/storage/memory"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/memfs"
 	"gopkg.in/src-d/go-billy.v4/util"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 type CommitStatsSuite struct {

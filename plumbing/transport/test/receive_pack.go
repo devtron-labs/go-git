@@ -1,6 +1,5 @@
 // Package test implements common test suite for different transport
 // implementations.
-//
 package test
 
 import (
@@ -11,15 +10,15 @@ import (
 	"os"
 	"path/filepath"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp"
-	"gopkg.in/src-d/go-git.v4/plumbing/protocol/packp/capability"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/packfile"
+	"github.com/devtron-labs/go-git/plumbing/protocol/packp"
+	"github.com/devtron-labs/go-git/plumbing/protocol/packp/capability"
+	"github.com/devtron-labs/go-git/plumbing/transport"
+	"github.com/devtron-labs/go-git/storage/memory"
 
+	"github.com/devtron-labs/go-git/go-git-fixtures"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 type ReceivePackSuite struct {
