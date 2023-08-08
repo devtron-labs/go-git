@@ -4,7 +4,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 )
 

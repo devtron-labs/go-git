@@ -11,7 +11,7 @@ import (
 	"github.com/devtron-labs/go-git/storage/filesystem"
 	"github.com/devtron-labs/go-git/storage/memory"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 )
 

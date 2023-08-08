@@ -7,7 +7,7 @@ import (
 	"github.com/devtron-labs/go-git/plumbing/transport"
 	"github.com/devtron-labs/go-git/plumbing/transport/test"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 )
 

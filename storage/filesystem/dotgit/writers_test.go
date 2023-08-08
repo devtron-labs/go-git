@@ -12,7 +12,7 @@ import (
 	"github.com/devtron-labs/go-git/plumbing/format/idxfile"
 	"github.com/devtron-labs/go-git/plumbing/format/packfile"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/osfs"
 )

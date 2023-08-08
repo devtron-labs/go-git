@@ -5,6 +5,7 @@ go 1.20
 require (
 	github.com/alcortesm/tgz v0.0.0-20161220082320-9c5fe88206d7
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
+	github.com/devtron-labs/go-git-fixtures v0.1.4
 	github.com/emirpasic/gods v1.12.0
 	github.com/gliderlabs/ssh v0.2.2
 	github.com/google/go-cmp v0.3.0

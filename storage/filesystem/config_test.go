@@ -7,7 +7,7 @@ import (
 	"github.com/devtron-labs/go-git/config"
 	"github.com/devtron-labs/go-git/storage/filesystem/dotgit"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/osfs"
 )

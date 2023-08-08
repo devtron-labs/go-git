@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	fixtures "github.com/devtron-labs/go-git/go-git-fixtures"
+	fixtures "github.com/devtron-labs/go-git-fixtures"
 	"github.com/devtron-labs/go-git/plumbing"
 	"github.com/devtron-labs/go-git/plumbing/cache"
 	"github.com/devtron-labs/go-git/storage/filesystem"

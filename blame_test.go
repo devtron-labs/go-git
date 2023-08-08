@@ -4,7 +4,7 @@ import (
 	"github.com/devtron-labs/go-git/plumbing"
 	"github.com/devtron-labs/go-git/plumbing/object"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 )
 

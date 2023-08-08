@@ -13,7 +13,7 @@ import (
 	"github.com/devtron-labs/go-git/plumbing/storer"
 	"github.com/devtron-labs/go-git/storage"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 )
 

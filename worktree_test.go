@@ -20,7 +20,7 @@ import (
 	"github.com/devtron-labs/go-git/plumbing/object"
 	"github.com/devtron-labs/go-git/storage/memory"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	"golang.org/x/text/unicode/norm"
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/memfs"

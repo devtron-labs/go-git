@@ -12,7 +12,7 @@ import (
 	"github.com/devtron-labs/go-git/plumbing/cache"
 	"github.com/devtron-labs/go-git/storage/filesystem/dotgit"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
 )
 

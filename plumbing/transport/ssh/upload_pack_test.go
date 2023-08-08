@@ -15,7 +15,7 @@ import (
 	"github.com/devtron-labs/go-git/plumbing/transport"
 	"github.com/devtron-labs/go-git/plumbing/transport/test"
 
-	"github.com/devtron-labs/go-git/go-git-fixtures"
+	"github.com/devtron-labs/go-git-fixtures"
 	"github.com/gliderlabs/ssh"
 	stdssh "golang.org/x/crypto/ssh"
 	. "gopkg.in/check.v1"
