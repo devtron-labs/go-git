@@ -13,7 +13,7 @@ require (
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/kevinburke/ssh_config v0.0.0-20190725054713-01f96b0aa0cd
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/sergi/go-diff v1.0.0
+	github.com/sergi/go-diff v1.3.0
 	github.com/src-d/gcfg v1.4.0
 	github.com/xanzy/ssh-agent v0.2.1
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4
