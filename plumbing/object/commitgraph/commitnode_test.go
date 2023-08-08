@@ -4,13 +4,13 @@ import (
 	"path"
 	"testing"
 
+	fixtures "github.com/devtron-labs/go-git-fixtures"
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/plumbing/format/commitgraph"
+	"github.com/devtron-labs/go-git/plumbing/format/packfile"
+	"github.com/devtron-labs/go-git/storage/filesystem"
 	. "gopkg.in/check.v1"
-	fixtures "gopkg.in/src-d/go-git-fixtures.v3"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/commitgraph"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/packfile"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
 )
 
 func Test(t *testing.T) { TestingT(t) }

@@ -5,13 +5,13 @@ import (
 	"io"
 	stdioutil "io/ioutil"
 
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/format/idxfile"
+	"github.com/devtron-labs/go-git/storage/memory"
 	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
 
+	"github.com/devtron-labs/go-git-fixtures"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git-fixtures.v3"
 )
 
 type EncoderSuite struct {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/devtron-labs/go-git"
+	. "github.com/devtron-labs/go-git/_examples"
+	"github.com/devtron-labs/go-git/plumbing"
 )
 
 // Example how to resolve a revision into its commit counterpart

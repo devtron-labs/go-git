@@ -5,11 +5,11 @@ import (
 	"io"
 	"os"
 
+	"github.com/devtron-labs/go-git/plumbing"
+	"github.com/devtron-labs/go-git/plumbing/cache"
+	"github.com/devtron-labs/go-git/plumbing/format/idxfile"
+	"github.com/devtron-labs/go-git/plumbing/storer"
 	billy "gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
 )
 
 var (

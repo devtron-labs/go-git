@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
+	"github.com/devtron-labs/go-git"
+	. "github.com/devtron-labs/go-git/_examples"
 )
 
 // Pull changes from a remote repository

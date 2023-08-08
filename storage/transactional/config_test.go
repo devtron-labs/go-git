@@ -1,9 +1,9 @@
 package transactional
 
 import (
+	"github.com/devtron-labs/go-git/config"
+	"github.com/devtron-labs/go-git/storage/memory"
 	. "gopkg.in/check.v1"
-	"gopkg.in/src-d/go-git.v4/config"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
 )
 
 var _ = Suite(&ConfigSuite{})

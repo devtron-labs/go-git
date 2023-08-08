@@ -5,7 +5,7 @@ import (
 	"io"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/devtron-labs/go-git/plumbing"
 )
 
 var (
